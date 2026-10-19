@@ -34,7 +34,7 @@ class DataImport(Document):
 		delimiter_options: DF.Data | None
 		google_sheets_url: DF.Data | None
 		import_file: DF.Attach | None
-		import_type: DF.Literal["", "Insert New Records", "Update Existing Records"]
+		import_type: DF.Literal["", "Insert New Records", "Update Existing Records", "Insert Child Records"]
 		mute_emails: DF.Check
 		payload_count: DF.Int
 		reference_doctype: DF.Link
